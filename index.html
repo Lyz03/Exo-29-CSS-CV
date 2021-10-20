@@ -6,24 +6,36 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <h1>Lallier Lizoé</h1>
 
     <section id="things_that_go_to_the_left">
-        <h1>Lallier Lizoé</h1>
-        <img src="/photo.jpg" alt="photo de profile">
+
+        <div id="photo">
+            <img src="/photo.jpg" alt="photo de profile">
+        </div>
+
+        <div class="profile">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias aperiam commodi dolor harum
+                magni ut. Adipisci architecto, ducimus enim ex illo ipsam iste libero modi nihil numquam, perferendis
+                voluptatum.
+            </p>
+        </div>
 
         <div class="contact">
             <h2>Me contacter</h2>
             <form action="#" method="post">
                 
-                <label for="user_name">Votre Nom</label>
-                <input id="user_name" type="text" name="userName">
+                <label for="user_name">Votre Nom :</label>
+                <input id="user_name" type="text" name="userName" placeholder="Entrer votre Nom">
                 
                 <label for="user_company">Votre Entreprise :</label>
-                <input id="user_company" type="text" name="userCompany">
+                <input id="user_company" type="text" name="userCompany" placeholder="Entrer le Nom de votre Entrprise">
 
                 <label for="user_message">Votre message :</label>
-                <textarea name="userMessage" id="user_message" cols="30" rows="10"></textarea>
-                
+                <textarea name="userMessage" id="user_message" cols="42" rows="10" placeholder="Entrer Votre message"></textarea>
+
+                <input type="submit" value="Envoyer">
             </form>
 
             <div>
@@ -35,45 +47,39 @@
             </div>
         </div>
 
-        <div class="profile">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias aperiam commodi dolor harum
-                magni ut. Adipisci architecto, ducimus enim ex illo ipsam iste libero modi nihil numquam, perferendis
-                voluptatum.
-            </p>
-        </div>
-
     </section>
 
-    <div class="scolaire">
-        <h2>Cursus Scolaire</h2>
-        <ul>
-            <li>2019 ~ 2020 : Diplôme National du Brevet</li>
-        </ul>
-    </div>
+    <section id="the_rest">
+        <div class="scolaire">
+            <h2>Cursus Scolaire</h2>
+            <ul>
+                <li>2019 ~ 2020 : Diplôme National du Brevet</li>
+            </ul>
+        </div>
 
-    <div class="pro">
-        <h2>Parcours Professionnel</h2>
-        <ul>
-            <li>/</li>
-        </ul>
-    </div>
+        <div class="pro">
+            <h2>Parcours Professionnel</h2>
+            <ul>
+                <li>/</li>
+            </ul>
+        </div>
 
-    <div class="compétences">
-        <h2>Compétences en informatique / développement</h2>
-        <ul>
-            <li>/</li>
-        </ul>
-    </div>
+        <div class="compétences">
+            <h2>Compétences en informatique / développement</h2>
+            <ul>
+                <li>/</li>
+            </ul>
+        </div>
 
-    <div class="hobbies">
-        <h2>Hobbies</h2>
-        <ul>
-            <li>Le code</li>
-            <li>Le dessin</li>
-            <li>Les jeux vidéo</li>
-        </ul>
-    </div>
+        <div class="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Le code</li>
+                <li>Le dessin</li>
+                <li>Les jeux vidéo</li>
+            </ul>
+        </div>
+    </section>
 
 </body>
 </html>
