@@ -33,6 +33,10 @@ h1 {
     box-shadow: 2px 0 3px lightgray;
 }
 
+.profile p {
+    text-align: justify;
+}
+
 #things_that_go_to_the_left h2 {
     color: white;
     border: none;
