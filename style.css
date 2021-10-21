@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 body {
-    background-color: white;
     font-family: 'Raleway', sans-serif;
     padding: 0;
-    margin: 0;
+    margin: 5px;
+    background-color: #f1f1f1;
 }
 
 img {
@@ -20,6 +20,8 @@ h1 {
     margin: 0;
     box-shadow: 0 2px 3px lightgray;
     color: white;
+    border: 1px solid #AAC7CDFF;
+    border-radius: 50px;
 
 }
 
@@ -30,7 +32,10 @@ h1 {
     width: 30%;
     padding-left: 2%;
     padding-right: 2%;
+    margin-top: 10px;
     box-shadow: 2px 0 3px lightgray;
+    border: 1px solid #AAC7CDFF;
+    border-radius: 20px;
 }
 
 .profile p {
@@ -96,9 +101,13 @@ a {
 #the_rest {
     display: inline-block;
     position: relative;
-    left: 10%;
+    left: 30px;
     margin-top: 5%;
     max-width: 100%;
+    border: 1px solid #AAC7CDFF;
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: white;
 }
 
 h2 {
