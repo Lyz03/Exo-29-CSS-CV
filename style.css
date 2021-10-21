@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    background-color: #cdaac8;
+    padding: 5px 0;
+    margin: 0;
+    box-shadow: 0 2px 3px lightgray;
+    color: white;
+
+}
+
+#things_that_go_to_the_left {
+    display: inline-block;
+    background-color: #aabacd;
+    float: left;
+    width: 30%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 2px 0 3px lightgray;
+}
+
+.profile p {
+    text-align: justify;
+}
+
+#things_that_go_to_the_left h2 {
+    color: white;
+    border: none;
+}
+
+hr {
+    color: white;
+}
+
+#photo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+img {
+    border: 2px  solid white;
+    border-radius: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+
+}
+
+textarea {
+    max-width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: #b5aacd;
+    color: white;
+}
+
+a {
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+
+#the_rest {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    margin-top: 5%;
+    max-width: 100%;
+}
+
+h2 {
+    border: 2px solid #aac7cd;
+    border-radius: 50px;
+    padding: 5px 20px;
+    color: #646464;
+    font-weight: normal;
+}
+
+ul {
+    list-style: circle;
+}
