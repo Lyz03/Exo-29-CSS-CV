@@ -3,7 +3,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     padding: 0;
-    margin: 5px;
+    margin: 0;
     background-color: #f1f1f1;
 }
 
@@ -20,9 +20,6 @@ h1 {
     margin: 0;
     box-shadow: 0 2px 3px lightgray;
     color: white;
-    border: 1px solid #AAC7CDFF;
-    border-radius: 50px;
-
 }
 
 #things_that_go_to_the_left {
@@ -32,10 +29,9 @@ h1 {
     width: 30%;
     padding-left: 2%;
     padding-right: 2%;
-    margin-top: 10px;
     box-shadow: 2px 0 3px lightgray;
     border: 1px solid #AAC7CDFF;
-    border-radius: 20px;
+    margin-left: 20px;
 }
 
 .profile p {
@@ -68,7 +64,6 @@ input[type="text"] {
     display: inline-block;
     border: 1px solid lightgray;
     box-sizing: border-box;
-
 }
 
 textarea {
@@ -111,11 +106,12 @@ a {
 }
 
 h2 {
-    border: 2px solid #aac7cd;
+    border: 2px solid white;
     border-radius: 50px;
     padding: 5px 20px;
-    color: #646464;
+    color: white;
     font-weight: normal;
+    background-color: #aac7cd;
 }
 
 ul {
